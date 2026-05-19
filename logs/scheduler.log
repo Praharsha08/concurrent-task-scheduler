@@ -1,0 +1,222 @@
+2026-05-16 22:21:58,715 [INFO] Task clean waiting for dependencies
+2026-05-16 22:21:58,715 [INFO] Task train waiting for dependencies
+2026-05-16 22:21:58,715 [INFO] Task report waiting for dependencies
+2026-05-16 22:21:58,715 [INFO] Scheduler started
+2026-05-16 22:21:58,717 [INFO] Executing task download
+2026-05-16 22:22:00,770 [INFO] Task download completed successfully
+2026-05-16 22:22:00,786 [INFO] Dependencies resolved for clean
+2026-05-16 22:22:00,816 [INFO] Executing task clean
+2026-05-16 22:22:02,856 [ERROR] Task clean failed: Data cleaning error
+2026-05-16 22:22:02,872 [WARNING] Retrying clean (1/2)
+2026-05-16 22:22:02,936 [INFO] Executing task clean
+2026-05-16 22:22:04,977 [ERROR] Task clean failed: Data cleaning error
+2026-05-16 22:22:04,993 [WARNING] Retrying clean (2/2)
+2026-05-16 22:22:05,055 [INFO] Executing task clean
+2026-05-16 22:22:07,133 [INFO] Task clean completed successfully
+2026-05-16 22:22:07,148 [INFO] Dependencies resolved for train
+2026-05-16 22:22:07,179 [INFO] Executing task train
+2026-05-16 22:22:10,259 [INFO] Task train completed successfully
+2026-05-16 22:22:10,274 [INFO] Dependencies resolved for report
+2026-05-16 22:22:10,306 [INFO] Executing task report
+2026-05-16 22:22:11,359 [INFO] Task report completed successfully
+2026-05-16 22:22:11,360 [INFO] Scheduler finished
+2026-05-16 22:25:28,667 [INFO] download: PENDING -> READY
+2026-05-16 22:25:28,667 [INFO] Task clean waiting for dependencies
+2026-05-16 22:25:28,667 [INFO] Task train waiting for dependencies
+2026-05-16 22:25:28,667 [INFO] Task report waiting for dependencies
+2026-05-16 22:25:28,667 [INFO] Scheduler started
+2026-05-16 22:25:28,668 [INFO] download: READY -> RUNNING
+2026-05-16 22:25:28,681 [INFO] Executing task download
+2026-05-16 22:25:30,748 [INFO] download: RUNNING -> COMPLETED
+2026-05-16 22:25:30,764 [INFO] Task download completed successfully
+2026-05-16 22:25:30,780 [INFO] Dependencies resolved for clean
+2026-05-16 22:25:30,780 [INFO] clean: PENDING -> READY
+2026-05-16 22:25:30,796 [INFO] clean: READY -> RUNNING
+2026-05-16 22:25:30,811 [INFO] Executing task clean
+2026-05-16 22:25:32,879 [INFO] clean: RUNNING -> COMPLETED
+2026-05-16 22:25:32,894 [INFO] Task clean completed successfully
+2026-05-16 22:25:32,910 [INFO] Dependencies resolved for train
+2026-05-16 22:25:32,910 [INFO] train: PENDING -> READY
+2026-05-16 22:25:32,925 [INFO] train: READY -> RUNNING
+2026-05-16 22:25:32,941 [INFO] Executing task train
+2026-05-16 22:25:36,000 [INFO] train: RUNNING -> COMPLETED
+2026-05-16 22:25:36,016 [INFO] Task train completed successfully
+2026-05-16 22:25:36,032 [INFO] Dependencies resolved for report
+2026-05-16 22:25:36,032 [INFO] report: PENDING -> READY
+2026-05-16 22:25:36,048 [INFO] report: READY -> RUNNING
+2026-05-16 22:25:36,064 [INFO] Executing task report
+2026-05-16 22:25:37,118 [INFO] report: RUNNING -> COMPLETED
+2026-05-16 22:25:37,118 [INFO] Task report completed successfully
+2026-05-16 22:25:37,118 [INFO] Scheduler finished
+2026-05-16 22:42:13,724 [INFO] download: PENDING -> READY
+2026-05-16 22:42:13,724 [INFO] Task clean waiting for dependencies
+2026-05-16 22:42:13,724 [INFO] Task train waiting for dependencies
+2026-05-16 22:42:13,724 [INFO] Task report waiting for dependencies
+2026-05-16 22:42:13,725 [INFO] Scheduler started
+2026-05-16 22:42:13,725 [INFO] download: READY -> RUNNING
+2026-05-16 22:42:13,736 [INFO] Executing task download
+2026-05-16 22:42:15,799 [INFO] download: RUNNING -> COMPLETED
+2026-05-16 22:42:15,814 [INFO] Task download completed successfully
+2026-05-16 22:42:15,829 [INFO] Dependencies resolved for clean
+2026-05-16 22:42:15,829 [INFO] clean: PENDING -> READY
+2026-05-16 22:42:15,845 [INFO] clean: READY -> RUNNING
+2026-05-16 22:42:15,861 [INFO] Executing task clean
+2026-05-16 22:42:17,926 [INFO] clean: RUNNING -> COMPLETED
+2026-05-16 22:42:17,941 [INFO] Task clean completed successfully
+2026-05-16 22:42:17,957 [INFO] Dependencies resolved for train
+2026-05-16 22:42:17,957 [INFO] train: PENDING -> READY
+2026-05-16 22:42:17,973 [INFO] train: READY -> RUNNING
+2026-05-16 22:42:17,988 [INFO] Executing task train
+2026-05-16 22:42:21,041 [INFO] train: RUNNING -> COMPLETED
+2026-05-16 22:42:21,057 [INFO] Task train completed successfully
+2026-05-16 22:42:21,073 [INFO] Dependencies resolved for report
+2026-05-16 22:42:21,073 [INFO] report: PENDING -> READY
+2026-05-16 22:42:21,090 [INFO] report: READY -> RUNNING
+2026-05-16 22:42:21,105 [INFO] Executing task report
+2026-05-16 22:42:22,160 [INFO] report: RUNNING -> COMPLETED
+2026-05-16 22:42:22,160 [INFO] Task report completed successfully
+2026-05-16 22:42:22,160 [INFO] Scheduler finished
+2026-05-16 23:10:40,730 [INFO] download: PENDING -> READY
+2026-05-16 23:10:40,731 [INFO] Task clean waiting for dependencies
+2026-05-16 23:10:40,731 [INFO] Task train waiting for dependencies
+2026-05-16 23:10:40,731 [INFO] Task report waiting for dependencies
+2026-05-16 23:11:16,259 [INFO] download: PENDING -> READY
+2026-05-16 23:11:16,260 [INFO] Task clean waiting for dependencies
+2026-05-16 23:11:16,260 [INFO] Task train waiting for dependencies
+2026-05-16 23:11:16,260 [INFO] Task report waiting for dependencies
+2026-05-16 23:13:58,300 [INFO] download: PENDING -> READY
+2026-05-16 23:13:58,300 [INFO] Task clean waiting for dependencies
+2026-05-16 23:13:58,300 [INFO] Task train waiting for dependencies
+2026-05-16 23:13:58,300 [INFO] Task report waiting for dependencies
+2026-05-16 23:13:58,300 [INFO] Scheduler started
+2026-05-16 23:13:58,301 [INFO] download: READY -> RUNNING
+2026-05-16 23:13:58,312 [INFO] Executing task download
+2026-05-16 23:14:00,354 [INFO] download: RUNNING -> COMPLETED
+2026-05-16 23:14:00,370 [INFO] Task download completed successfully
+2026-05-16 23:14:00,385 [INFO] Dependencies resolved for clean
+2026-05-16 23:14:00,385 [INFO] clean: PENDING -> READY
+2026-05-16 23:14:00,400 [INFO] clean: READY -> RUNNING
+2026-05-16 23:14:00,415 [INFO] Executing task clean
+2026-05-16 23:14:02,477 [INFO] clean: RUNNING -> COMPLETED
+2026-05-16 23:14:02,493 [INFO] Task clean completed successfully
+2026-05-16 23:14:02,509 [INFO] Dependencies resolved for train
+2026-05-16 23:14:02,509 [INFO] train: PENDING -> READY
+2026-05-16 23:14:02,525 [INFO] train: READY -> RUNNING
+2026-05-16 23:14:02,540 [INFO] Executing task train
+2026-05-16 23:14:05,596 [INFO] train: RUNNING -> COMPLETED
+2026-05-16 23:14:05,611 [INFO] Task train completed successfully
+2026-05-16 23:14:05,626 [INFO] Dependencies resolved for report
+2026-05-16 23:14:05,626 [INFO] report: PENDING -> READY
+2026-05-16 23:14:05,641 [INFO] report: READY -> RUNNING
+2026-05-16 23:14:05,657 [INFO] Executing task report
+2026-05-16 23:14:06,717 [INFO] report: RUNNING -> COMPLETED
+2026-05-16 23:14:06,717 [INFO] Task report completed successfully
+2026-05-16 23:14:06,717 [INFO] Scheduler finished
+2026-05-16 23:30:16,906 [INFO] Scheduler started
+2026-05-16 23:30:16,907 [INFO] Scheduler finished
+2026-05-16 23:35:01,961 [INFO] task_1: PENDING -> READY
+2026-05-16 23:47:41,795 [INFO] Scheduler started
+2026-05-16 23:47:41,795 [INFO] Scheduler finished
+2026-05-16 23:52:50,371 [INFO] Scheduler started
+2026-05-16 23:54:30,802 [INFO] Scheduler started
+2026-05-16 23:54:31,342 [INFO] Scheduler started
+2026-05-17 00:01:08,760 [INFO] Scheduler started
+2026-05-17 00:02:55,870 [INFO] Scheduler started
+2026-05-17 00:03:27,218 [INFO] Scheduler started
+2026-05-17 00:03:27,835 [INFO] Scheduler started
+2026-05-17 00:07:35,871 [INFO] Scheduler started
+2026-05-17 00:10:19,462 [INFO] Scheduler started
+2026-05-17 00:11:52,105 [INFO] Scheduler started
+2026-05-17 00:11:52,812 [INFO] Scheduler started
+2026-05-17 00:14:54,776 [INFO] Scheduler started
+2026-05-17 00:36:09,272 [INFO] Scheduler started
+2026-05-17 00:40:21,653 [INFO] Scheduler started
+2026-05-17 00:40:38,835 [INFO] Scheduler started
+2026-05-17 00:40:39,453 [INFO] Scheduler started
+2026-05-17 00:41:19,404 [INFO] task_1: PENDING -> READY
+2026-05-17 00:41:19,475 [INFO] task_1: READY -> RUNNING
+2026-05-17 00:41:19,486 [INFO] Executing task task_1
+2026-05-17 00:41:22,551 [INFO] task_1: RUNNING -> COMPLETED
+2026-05-17 00:41:22,551 [INFO] Task task_1 completed successfully
+2026-05-17 00:45:21,308 [INFO] task_1: PENDING -> READY
+2026-05-17 00:45:21,661 [INFO] task_1: READY -> RUNNING
+2026-05-17 00:45:21,677 [INFO] Executing task task_1
+2026-05-17 00:45:24,762 [INFO] task_1: RUNNING -> COMPLETED
+2026-05-17 00:45:24,762 [INFO] Task task_1 completed successfully
+2026-05-17 00:48:42,019 [INFO] Scheduler started
+2026-05-17 00:51:01,698 [INFO] Scheduler started
+2026-05-17 00:55:26,533 [INFO] Scheduler started
+2026-05-17 00:55:40,086 [INFO] Scheduler started
+2026-05-17 00:55:49,997 [INFO] Scheduler started
+2026-05-17 01:05:29,822 [INFO] Scheduler started
+2026-05-17 01:05:30,421 [INFO] Scheduler started
+2026-05-17 01:06:18,761 [INFO] Scheduler started
+2026-05-17 01:08:43,184 [INFO] Scheduler started
+2026-05-17 01:09:13,471 [INFO] Scheduler started
+2026-05-17 01:11:28,463 [INFO] Scheduler started
+2026-05-17 01:11:43,928 [INFO] Scheduler started
+2026-05-17 01:11:44,614 [INFO] Scheduler started
+2026-05-17 01:15:46,070 [INFO] Scheduler started
+2026-05-17 01:17:04,109 [INFO] Scheduler started
+2026-05-17 01:17:04,647 [INFO] Scheduler started
+2026-05-17 01:18:53,545 [INFO] Scheduler started
+2026-05-17 01:19:07,859 [INFO] Scheduler started
+2026-05-17 01:19:08,447 [INFO] Scheduler started
+2026-05-17 01:23:15,797 [INFO] Scheduler started
+2026-05-17 01:23:16,338 [INFO] Scheduler started
+2026-05-17 01:23:46,216 [INFO] task_1: PENDING -> READY
+2026-05-17 01:23:46,364 [INFO] task_1: READY -> RUNNING
+2026-05-17 01:23:46,412 [INFO] Executing task task_1
+2026-05-17 01:23:49,475 [INFO] task_1: RUNNING -> COMPLETED
+2026-05-17 01:23:54,536 [INFO] Task task_1 completed successfully
+2026-05-17 01:26:23,946 [INFO] Scheduler started
+2026-05-17 01:28:36,843 [INFO] Scheduler started
+2026-05-17 01:29:17,963 [INFO] Scheduler started
+2026-05-17 01:29:29,530 [INFO] Scheduler started
+2026-05-17 01:29:30,135 [INFO] Scheduler started
+2026-05-17 01:31:12,811 [INFO] Scheduler started
+2026-05-17 01:31:13,412 [INFO] Scheduler started
+2026-05-17 01:32:07,444 [INFO] task_1: PENDING -> READY
+2026-05-17 01:32:08,437 [INFO] task_1: READY -> RUNNING
+2026-05-17 01:32:08,444 [INFO] Executing task task_1
+2026-05-17 01:32:11,511 [INFO] task_1: RUNNING -> COMPLETED
+2026-05-17 01:32:16,943 [ERROR] Task task_1 failed: database is locked
+2026-05-17 01:32:16,943 [INFO] task_1: COMPLETED -> FAILED
+2026-05-17 01:33:54,327 [INFO] task_2: PENDING -> READY
+2026-05-17 01:33:54,573 [INFO] task_2: READY -> RUNNING
+2026-05-17 01:33:54,607 [INFO] Executing task task_2
+2026-05-17 01:33:56,673 [INFO] task_2: RUNNING -> COMPLETED
+2026-05-17 01:33:59,793 [INFO] Task task_2 completed successfully
+2026-05-19 18:26:38,343 [INFO] Scheduler started
+2026-05-19 18:26:39,404 [INFO] Scheduler started
+2026-05-19 18:40:02,712 [INFO] Scheduler started
+2026-05-19 18:40:53,086 [INFO] Scheduler started
+2026-05-19 18:42:31,669 [INFO] Scheduler started
+2026-05-19 18:47:58,910 [INFO] Scheduler started
+2026-05-19 18:47:59,919 [INFO] Scheduler started
+2026-05-19 18:52:21,586 [INFO] Scheduler started
+2026-05-19 18:55:05,058 [INFO] Scheduler started
+2026-05-19 18:55:05,824 [INFO] Scheduler started
+2026-05-19 19:00:31,838 [INFO] Scheduler started
+2026-05-19 19:00:32,677 [INFO] Scheduler started
+2026-05-19 19:06:47,108 [INFO] Scheduler started
+2026-05-19 19:06:48,079 [INFO] Scheduler started
+2026-05-19 19:09:33,618 [INFO] Scheduler started
+2026-05-19 19:09:34,383 [INFO] Scheduler started
+2026-05-19 19:11:35,226 [INFO] Scheduler started
+2026-05-19 19:11:36,077 [INFO] Scheduler started
+2026-05-19 19:16:41,246 [INFO] download_1: PENDING -> READY
+2026-05-19 19:16:41,283 [INFO] download_1: READY -> RUNNING
+2026-05-19 19:16:41,299 [INFO] Executing task download_1
+2026-05-19 19:16:44,365 [INFO] download_1: RUNNING -> COMPLETED
+2026-05-19 19:16:44,374 [INFO] Task download_1 completed successfully
+2026-05-19 19:17:37,185 [INFO] clean_1: PENDING -> READY
+2026-05-19 19:17:37,422 [INFO] clean_1: READY -> RUNNING
+2026-05-19 19:17:37,431 [INFO] Executing task clean_1
+2026-05-19 19:17:39,495 [INFO] clean_1: RUNNING -> COMPLETED
+2026-05-19 19:17:39,505 [INFO] Task clean_1 completed successfully
+2026-05-19 19:17:55,785 [INFO] report_1: PENDING -> READY
+2026-05-19 19:17:56,511 [INFO] report_1: READY -> RUNNING
+2026-05-19 19:17:56,526 [INFO] Executing task report_1
+2026-05-19 19:17:57,621 [INFO] report_1: RUNNING -> COMPLETED
+2026-05-19 19:17:57,632 [INFO] Task report_1 completed successfully
