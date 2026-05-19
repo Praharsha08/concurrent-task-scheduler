@@ -10,20 +10,6 @@ This project demonstrates:
 - REST APIs
 - real-time dashboard monitoring
 - cloud deployment using Render
-
----
-
-# 🌐 Live Demo
-
-## 🔹 Dashboard
-https://concurrent-task-scheduler.onrender.com/dashboard
-
-## 🔹 API Documentation
-https://concurrent-task-scheduler.onrender.com/docs
-
-## 🔹 GitHub Repository
-https://github.com/Praharsha08/concurrent-task-scheduler
-
 ---
 
 # 📌 Project Overview
@@ -38,6 +24,19 @@ The scheduler:
 - manages dependencies between tasks
 - visualizes execution statistics through a live dashboard
 
+---
+
+## 🌐 Live Demo
+
+- **Dashboard:**  
+  https://concurrent-task-scheduler.onrender.com/dashboard
+
+- **API Docs:**  
+  https://concurrent-task-scheduler.onrender.com/docs
+
+- **GitHub Repo:**  
+  https://github.com/Praharsha08/concurrent-task-scheduler
+  
 ---
 
 # ✨ Key Features
