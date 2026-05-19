@@ -203,16 +203,6 @@ Through this project, I gained hands-on experience with:
 
 ---
 
-# 📈 Resume Highlights
-
-- Built a distributed systems inspired concurrent task scheduler using FastAPI and multithreading
-- Implemented priority-based scheduling and DAG-style dependency management
-- Developed a real-time monitoring dashboard with task analytics
-- Integrated SQLite for persistent task storage
-- Deployed the complete application publicly on Render
-
----
-
 # 🔮 Future Improvements
 
 - Redis/RabbitMQ integration
