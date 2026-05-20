@@ -1,6 +1,6 @@
 # 🚀 Concurrent Task Scheduler
 
-A distributed systems inspired **Concurrent Task Scheduler** built using **Python, FastAPI, multithreading, SQLite, and a real-time monitoring dashboard**.
+A distributed systems inspired **Concurrent Task Scheduler** built using **Python, FastAPI, multithreading, SQLite, Docker, and a real-time monitoring dashboard**.
 
 This project demonstrates:
 - concurrent task execution
@@ -10,6 +10,8 @@ This project demonstrates:
 - REST APIs
 - real-time dashboard monitoring
 - cloud deployment using Render
+- Docker-based containerization
+
 ---
 
 # 📌 Project Overview
@@ -79,6 +81,10 @@ The scheduler:
 - Successfully deployed on Render
 - Publicly accessible web application
 
+## ✅ Docker Containerization
+- Containerized the application using Docker
+- Enables portable and scalable deployment across environments
+
 ---
 
 # 🛠️ Tech Stack
@@ -91,6 +97,7 @@ The scheduler:
 | SQLite | Database storage |
 | Jinja2 | Template rendering |
 | HTML/CSS | Dashboard frontend |
+| Docker | Containerization |
 | Uvicorn | ASGI server |
 | Render | Cloud deployment |
 | Git & GitHub | Version control |
@@ -141,6 +148,7 @@ concurrent-task-scheduler/
 │
 ├── logs/
 │
+├── Dockerfile
 ├── requirements.txt
 ├── Procfile
 ├── main.py
@@ -177,7 +185,7 @@ The dashboard provides:
 
 # 🚀 Deployment
 
-The project is deployed on Render using:
+The project is containerized using Docker and deployed on Render using:
 - FastAPI
 - Uvicorn
 - Procfile configuration
@@ -197,6 +205,7 @@ Through this project, I gained hands-on experience with:
 - task scheduling algorithms
 - dependency management using DAG concepts
 - cloud deployment
+- Docker containerization
 - real-time monitoring dashboards
 - Git & GitHub workflows
 
@@ -205,7 +214,6 @@ Through this project, I gained hands-on experience with:
 # 🔮 Future Improvements
 
 - Redis/RabbitMQ integration
-- Docker containerization
 - WebSocket-based live updates
 - Authentication & authorization
 - Kubernetes deployment
@@ -218,4 +226,8 @@ Through this project, I gained hands-on experience with:
 # 👨‍💻 Author
 
 ## PP Praharsha
+---
 
+# 📄 License
+
+This project is licensed under the MIT License.
